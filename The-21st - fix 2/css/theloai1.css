@@ -1,0 +1,95 @@
+.header {
+
+	padding-left: 318px;
+	background: #333333;
+	line-height: 30px;
+}
+
+.header input {
+	margin: 10px 0 0 10px;
+	width: 300px;
+	height: 30px;
+}
+
+.header img {
+	margin-left: 5	px;
+}
+
+.header a {
+	text-decoration: none;
+  		color: #fff;
+}
+#menu {
+	clear: left;
+	margin-left: -250px;
+	position: relative;
+	z-index: 9999;
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #1a1a1a;
+}
+
+#menu ul {
+  background: #323031;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #323031;
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 20px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+}
+#menu li {
+  position: relative;
+}
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+.slider{
+  margin-left: auto;
+  margin-top: 1px;
+}
+#next{
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 300%;
+  text-decoration: none;
+  top: 260px;
+  left: 212px;
+  color: white;
+}
+#prev{
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 300%;
+  text-decoration: none;
+  top: 260px;
+  left: 10px;
+  color: white;
+}
