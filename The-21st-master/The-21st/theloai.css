@@ -1,0 +1,13 @@
+#left {
+	width: 25%;
+	float: left;
+	border: solid 5px;
+}
+#right{
+	width: 25%;
+	float: right;
+	border: solid 5px;
+}
+#header{
+  border: solid 1px;
+}

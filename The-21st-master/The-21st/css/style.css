@@ -1,0 +1,27 @@
+
+#left {
+	width: 25%;
+	float: left;
+	border: solid 5px red;
+}
+#right{
+	width: 25%;
+	float: right;
+	border: solid 5px red;
+}
+.header{
+	border: solid 1px red;
+}
+
+#search {
+	width: 250px;
+	height: 25px;
+	margin-bottom: 35px;
+	display: block;
+	margin-left: 10px;
+}
+
+#logosearch {
+	height: 25px;
+	margin-bottom: 48px;
+}
